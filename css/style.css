@@ -1,0 +1,59 @@
+body {
+    background: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+}
+h1{
+    color:#17a2b8;
+    
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+color:white  !important ;}
+button {
+    color: #17a2b8 !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    border-color: #17a2b8!important;
+    transition:0.2s background-color ,0.2s color;
+}
+p{
+    color:white;
+
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+button:hover{
+    background-color:#17a2b8 !important;
+    color:white !important;
+}
+a:hover{
+    text-decoration:underline;
+}
+.login-system{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.nav-bar{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+
+}
+.btn2{
+    color: rgba(255,255,255,.5)!important;
+    border:1px solid #ffc107 !important;
+}
+.btn2:hover{
+    background-color: #ffc107 !important;
+
+}
+header{
+    height:100vh;
+}
+.heading{
+    box-shadow: -5px 2px 54px -9px rgba(0,0,0,1);
+}
+.text-success{
+   color: #28a745!important
+}
+.text-fail{
+    color: #dc3545!important;
+}
